@@ -79,7 +79,7 @@ func NewServer(logger *zap.Logger, md map[string]string, handler ServerHandler, 
 		grpc.MaxSendMsgSize(c.GetGrpc().MaxSendMsgSize),
 		grpc.MaxRecvMsgSize(c.GetGrpc().MaxRecvMsgSize),
 		grpc.KeepaliveEnforcementPolicy(keepalive.EnforcementPolicy{
-			MinTime:             5 * time.Second,
+			MinTime:             time.Duration(c.GetGrpc().KeepAliveTime) * time.Second,
 			PermitWithoutStream: true,
 		}),
 		grpc.KeepaliveParams(keepalive.ServerParameters{
