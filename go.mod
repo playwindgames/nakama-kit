@@ -1,6 +1,6 @@
 module github.com/doublemo/nakama-kit
 
-go 1.22.0
+go 1.24.0
 
 replace github.com/doublemo/nakama-common => ../nakama-common
 
@@ -13,7 +13,7 @@ require (
 	go.uber.org/zap v1.27.0
 	golang.org/x/oauth2 v0.21.0
 	google.golang.org/grpc v1.64.0
-	google.golang.org/protobuf v1.34.2
+	google.golang.org/protobuf v1.36.4
 )
 
 require (

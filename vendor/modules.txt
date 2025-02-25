@@ -24,7 +24,7 @@ github.com/coreos/go-systemd/v22/journal
 ## explicit
 github.com/coreos/pkg/capnslog
 # github.com/doublemo/nakama-common v0.0.0-00010101000000-000000000000 => ../nakama-common
-## explicit; go 1.22.0
+## explicit; go 1.23.3
 github.com/doublemo/nakama-common/api
 github.com/doublemo/nakama-common/rtapi
 # github.com/gogo/protobuf v1.3.2
@@ -198,8 +198,8 @@ google.golang.org/grpc/serviceconfig
 google.golang.org/grpc/stats
 google.golang.org/grpc/status
 google.golang.org/grpc/tap
-# google.golang.org/protobuf v1.34.2
-## explicit; go 1.20
+# google.golang.org/protobuf v1.36.4
+## explicit; go 1.21
 google.golang.org/protobuf/encoding/protojson
 google.golang.org/protobuf/encoding/prototext
 google.golang.org/protobuf/encoding/protowire
@@ -221,6 +221,7 @@ google.golang.org/protobuf/internal/genid
 google.golang.org/protobuf/internal/impl
 google.golang.org/protobuf/internal/order
 google.golang.org/protobuf/internal/pragma
+google.golang.org/protobuf/internal/protolazy
 google.golang.org/protobuf/internal/set
 google.golang.org/protobuf/internal/strs
 google.golang.org/protobuf/internal/version
