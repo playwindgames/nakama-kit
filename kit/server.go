@@ -115,7 +115,7 @@ func NewServer(logger *zap.Logger, md map[string]string, handler ServerHandler, 
 	)
 
 	port := c.GetGrpc().Port
-	for i := 0; i < 10000; i++ {
+	for range 10000 {
 		if c.GetGrpc().Port == 0 {
 			port = RandomBetween(c.GetGrpc().MinPort, c.GetGrpc().MaxPort)
 		}
