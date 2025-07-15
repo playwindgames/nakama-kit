@@ -148,6 +148,7 @@ message StateNode {
     int64  version = 2;
     repeated Presence Presences = 3; 
     repeated MatchmakerExtract matchmaker = 4;
+    repeated Party.IndexEntry partyIndexEntry = 5;
 }
 
 message Status {
