@@ -402,6 +402,17 @@ message Party {
         int64 opCode = 4;
         bytes data = 5;
     }
+
+    message IndexEntry {
+        string id = 1;
+        string node = 2;
+        bool open = 3;
+        bool hidden = 4;
+        int32 maxSize = 5;
+        bytes label = 6;
+        string labelString = 7;
+        string createTime = 8;
+    }
 }
 
 message Match {

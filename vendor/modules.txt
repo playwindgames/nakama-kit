@@ -23,7 +23,7 @@ github.com/coreos/go-systemd/v22/journal
 # github.com/coreos/pkg v0.0.0-20240122114842-bbd7aa9bf6fb
 ## explicit
 github.com/coreos/pkg/capnslog
-# github.com/doublemo/nakama-common v1.37.1
+# github.com/doublemo/nakama-common v1.37.2
 ## explicit; go 1.24.3
 github.com/doublemo/nakama-common/api
 github.com/doublemo/nakama-common/rtapi
