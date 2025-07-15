@@ -412,7 +412,7 @@ message Party {
         int32 maxSize = 5;
         bytes label = 6;
         string labelString = 7;
-        string createTime = 8;
+        int64 createTime = 8;
     }
 }
 
